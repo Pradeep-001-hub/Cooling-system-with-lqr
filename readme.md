@@ -248,3 +248,71 @@ The proposed approach ensures:
 - Robustness to disturbances
 
 These features make it highly suitable for advanced aerospace systems under ISRO, where precision  us needed
+
+Results and Discussion
+
+The simulation results clearly demonstrate the effectiveness of the proposed LQG-based thermal control system.
+
+ Time-Domain Analysis
+
+The LQG controller achieves:
+
+- Faster settling time compared to PID
+- Minimal overshoot
+- Smooth and stable response
+
+The PID controller, on the other hand:
+
+- Exhibits higher overshoot
+- Takes longer to stabilize
+- Shows oscillatory behavior
+
+---
+
+LQR vs LQG Behavior
+
+The LQR and LQG responses are observed to be nearly identical under low-noise conditions. This indicates that the Kalman filter provides highly accurate state estimation.
+
+Under increased noise:
+
+- LQG maintains stability
+- LQR performance degrades
+
+---
+
+Disturbance Rejection
+
+The LQG controller effectively rejects external disturbances:
+
+- Rapid recovery after disturbance
+- Minimal deviation from setpoint
+
+The PID controller shows:
+
+- Larger deviation
+- Slower recovery
+
+---
+
+Performance Metrics Comparison
+
+Metric| PID| LQR| LQG
+Settling Time| High| Low| Very Low
+Overshoot| High| Low| Very Low
+Stability| Moderate| High| Very High
+Robustness| Low| Medium| High
+
+---
+
+Interpretation
+
+The results confirm that:
+
+- LQR provides optimal control based on system dynamics
+- LQG enhances performance by incorporating state estimation
+- PID is not suitable for complex and disturbance-prone systems
+
+---
+
+Overall, the LQG controller demonstrates superior performance in terms of stability, speed, and robustness, making it suitable for aerospace thermal control applications.
+
