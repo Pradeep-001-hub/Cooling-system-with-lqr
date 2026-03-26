@@ -1,0 +1,14 @@
+Conclusion
+
+This project successfully demonstrates the design and implementation of an optimal thermal control system using LQR and Kalman filtering.
+
+The proposed LQG controller:
+
+- Achieves superior stability
+- Minimizes overshoot
+- Reduces settling time
+- Handles disturbances effectively
+
+Compared to classical PID control, the LQG approach provides a more robust and efficient solution for modern engineering systems.
+
+This work highlights the importance of model-based control techniques in advanced aerospace applications and serves as a foundation for further research in optimal and intelligent control systems.
