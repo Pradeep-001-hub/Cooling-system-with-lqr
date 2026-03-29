@@ -153,8 +153,7 @@ Visualization
 - Parameter tuning is critical for performance
 
 ---
-
-🚀 Applications
+Applications
 
 - Automotive fuel injection systems
 - Aerospace propulsion control
