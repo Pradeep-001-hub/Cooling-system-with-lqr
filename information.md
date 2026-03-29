@@ -1,6 +1,6 @@
-🚀 LQR/LQG-Based Fuel Injection Control System
+LQR/LQG-Based Fuel Injection Control System
 
-Project Overview
+Overview
 
 This project presents an advanced control strategy for fuel injection systems using Linear Quadratic Regulator (LQR) and Linear Quadratic Gaussian (LQG) techniques.
 
@@ -22,9 +22,9 @@ Objectives
 - Perform parameter sensitivity study (Q & R tuning)
 
 
-⚙️ System Model
+System Model
 
-🔹 Nonlinear Model
+Nonlinear Model
 
 Air-Fuel Ratio(AFR):air mass ÷fuelmass
 
