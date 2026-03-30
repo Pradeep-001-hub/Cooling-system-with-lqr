@@ -59,3 +59,10 @@ title('LQR + Sensor Noise + Kalman Filter')
 xlabel('Time (s)')
 ylabel('Temperature (K)')
 legend('Electronics','Battery','Radiator','Engine')
+
+
+%supporting function
+function dx = lqr_only_function(t,x,K,A,B,D,T_ref)
+u = -K*(x - T_ref);
+dx = A*x + B*u;
+end
