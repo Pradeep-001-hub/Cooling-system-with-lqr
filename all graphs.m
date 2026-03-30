@@ -63,7 +63,7 @@ legend('Electronics','Battery','Radiator','Engine')
 subplot(3,1,3)
 plot(t,u(:,1),'LineWidth',2)
 hold on
-plot(t,u(:,2),'LineWidth',2)
+plot(t,u(:,2),'LineWidth',2)%
 plot(t,u(:,3),'LineWidth',2)
 plot(t,u(:,4),'LineWidth',2)
 grid on
