@@ -21,11 +21,11 @@ T_ref = [300; 310; 280; 320];
 x0 = [290; 305; 275; 315];
 tspan = [0 50];
 
-Q = diag([100 100 50 80]);
+Q = diag([100 100 50 80]); %lqr controller
 R = diag([1 1 1 1]);
 K = lqr(A,B,Q,R);
 
-W = 0.05*eye(4);
+W = 0.05*eye(4);  % kalman filters
 V = 0.5*eye(4);
 [L,~,~] = lqe(A,eye(4),C,W,V);
 
