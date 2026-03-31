@@ -292,19 +292,22 @@ The PID controller shows:
 - Larger deviation
 - Slower recovery
 
----
-
-Performance Metrics Comparison
-
-Metric| PID| LQR| LQG
-Settling Time| High| Low| Very Low
-Overshoot| High| Low| Very Low
-Stability| Moderate| High| Very High
-Robustness| Low| Medium| High
-
----
-
-Interpretation
+Practical Constraints
+In real spacecraft systems:
+Power availability is limited
+Actuators have saturation limits
+Thermal response is nonlinear
+Thus, the controller must ensure:
+Minimal energy consumption
+Safe operating temperature
+Robust performance under uncertainty
+Improve LQR Explanation
+ Physical Interpretation of Q and R
+ Penalizes temperature deviation
+→ Higher Q = more importance on accuracy
+ Penalizes control effort
+→ Higher R = less energy usage
+This ensures an optimal balance between performance and power consumption, which is critical in space systems.
 
 The results confirm that:
 
@@ -312,7 +315,4 @@ The results confirm that:
 - LQG enhances performance by incorporating state estimation
 - PID is not suitable for complex and disturbance-prone systems
 
----
-
-Overall, the LQG controller demonstrates superior performance in terms of stability, speed, and robustness, making it suitable for aerospace thermal control applications.
 
