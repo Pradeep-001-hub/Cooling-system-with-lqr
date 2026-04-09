@@ -1,4 +1,4 @@
-%% Modal Analysis of LQR-Based Thermal System
+%%Modal Analysis of LQR-Based Thermal System
 clear; clc; close all;
 
 % Eigenvalues (from the image - slightly left half plane)
