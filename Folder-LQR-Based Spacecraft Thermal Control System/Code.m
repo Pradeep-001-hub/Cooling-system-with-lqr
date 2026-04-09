@@ -1,4 +1,4 @@
-%% LQR-Based Spacecraft Thermal Control System
+%%LQR-Based Spacecraft Thermal Control System
 clear; clc; close all;
 
 t = 0:0.1:60;
